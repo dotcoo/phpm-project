@@ -1,0 +1,25 @@
+{
+    "name": "dotcoo/zay-project",
+    "description": "Zay Project",
+    "type": "project",
+    "license": "proprietary",
+    "keywords": ["Zay", "PHP", "Swoole", "Project"],
+    "homepage": "https://github.com/dotcoo/zay-project",
+    "authors": [
+        {
+            "name": "dotcoo",
+            "email": "dotcoo@163.com",
+            "homepage": "http://blog.dotcoo.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.1",
+        "dotcoo/zay": "^0.0.3"
+    }
+}

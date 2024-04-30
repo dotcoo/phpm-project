@@ -1,0 +1,72 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c7d2738fd7b0bcbb3ff22de923798554",
+    "packages": [
+        {
+            "name": "dotcoo/zay",
+            "version": "v0.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dotcoo/zay.git",
+                "reference": "09b366da816cb9009dda1d11983dc5e93bafcdb0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dotcoo/zay/zipball/09b366da816cb9009dda1d11983dc5e93bafcdb0",
+                "reference": "09b366da816cb9009dda1d11983dc5e93bafcdb0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.1"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/files/constants.php",
+                    "src/files/helpers.php",
+                    "src/files/alias.php"
+                ],
+                "psr-4": {
+                    "zay\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "dotcoo zhao",
+                    "email": "dotcoo@163.com",
+                    "homepage": "http://blog.dotcoo.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Zay is a PHP and Swoole framework",
+            "homepage": "https://github.com/dotcoo/zay",
+            "keywords": [
+                "framework",
+                "php",
+                "swoole"
+            ],
+            "support": {
+                "issues": "https://github.com/dotcoo/zay/issues",
+                "source": "https://github.com/dotcoo/zay/tree/v0.0.3"
+            },
+            "time": "2024-04-02T18:00:08+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}
