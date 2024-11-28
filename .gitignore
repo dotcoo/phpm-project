@@ -1,1 +1,26 @@
-/vendor/
+# Directory
+vendor
+temp
+tmp
+logs
+var
+
+# File
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+*.log
+.DS_Store
+Thumbs.db
+composer.phar
+composer.lock
+
+# Env
+.env*
+!.env.example
+
+# Editor
+.vscode
+.idea

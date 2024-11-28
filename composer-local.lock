@@ -4,21 +4,15 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c7d2738fd7b0bcbb3ff22de923798554",
+    "content-hash": "d9839bc877ad136f0f7adc7fa5f1a8af",
     "packages": [
         {
             "name": "dotcoo/zay",
-            "version": "v0.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/dotcoo/zay.git",
-                "reference": "09b366da816cb9009dda1d11983dc5e93bafcdb0"
-            },
+            "version": "dev-main",
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/dotcoo/zay/zipball/09b366da816cb9009dda1d11983dc5e93bafcdb0",
-                "reference": "09b366da816cb9009dda1d11983dc5e93bafcdb0",
-                "shasum": ""
+                "type": "path",
+                "url": "../zay",
+                "reference": "248c20d70d765a10f36f623b9530684c3a424b56"
             },
             "require": {
                 "php": ">=8.1"
@@ -26,47 +20,51 @@
             "type": "library",
             "autoload": {
                 "files": [
-                    "src/files/constants.php",
-                    "src/files/helpers.php",
-                    "src/files/alias.php"
+                    "src/files/init.php"
                 ],
                 "psr-4": {
                     "zay\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "proprietary"
             ],
             "authors": [
                 {
-                    "name": "dotcoo zhao",
-                    "email": "dotcoo@163.com",
-                    "homepage": "http://blog.dotcoo.com",
-                    "role": "Developer"
+                    "name": "dotcoo",
+                    "email": "dotcoo@163.com"
                 }
             ],
             "description": "Zay is a PHP and Swoole framework",
             "homepage": "https://github.com/dotcoo/zay",
             "keywords": [
+                "core",
                 "framework",
                 "php",
-                "swoole"
+                "swoole",
+                "zay"
             ],
             "support": {
                 "issues": "https://github.com/dotcoo/zay/issues",
-                "source": "https://github.com/dotcoo/zay/tree/v0.0.3"
+                "source": "https://github.com/dotcoo/zay"
             },
-            "time": "2024-04-02T18:00:08+00:00"
+            "transport-options": {
+                "symlink": false,
+                "relative": true
+            }
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
-    "prefer-stable": false,
+    "stability-flags": {
+        "dotcoo/zay": 20
+    },
+    "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
+    "platform": {
+        "php": ">=8.1"
+    },
+    "platform-dev": {},
     "plugin-api-version": "2.6.0"
 }

@@ -31,8 +31,11 @@
     "prefer-stable": true,
     "repositories": [
         {
-            "type": "vcs",
-            "url": "https://github.com/dotcoo/zay.git"
+            "type": "path",
+            "url": "../zay",
+            "options": {
+                "symlink": false
+            }
         }
     ]
 }
