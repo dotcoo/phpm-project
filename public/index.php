@@ -1,7 +1,7 @@
 <?php
 // Copyright 2021 The dotcoo <dotcoo@163.com>. All rights reserved.
 
-namespace zay;
+namespace net\phpm\framework;
 
 date_default_timezone_set('PRC');
 

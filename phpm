@@ -1,0 +1,15 @@
+#!/usr/bin/env php
+<?php
+// Copyright 2021 The dotcoo <dotcoo@163.com>. All rights reserved.
+
+declare(strict_types=1);
+
+define('APP_ROOT', __DIR__);
+
+require_once __DIR__ . '/../phpm-framework/src/files/env.php';
+require_once __DIR__ . '/../phpm-framework/src/Server.php';
+
+if (PHP_SAPI != 'cli') { exit('not cli!'); }
+
+$serv = \net\phpm\framework\Server::getInstance();
+$serv->start();

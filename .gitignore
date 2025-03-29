@@ -1,26 +1,32 @@
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
 # Directory
 vendor
-temp
-tmp
-logs
 var
+logs
+tmp
 
-# File
+# Custom
+.env*
+!.env.example
+*.log
+*.bak
+*.rar
 *.zip
 *.tar
 *.gz
-*.rar
 *.7z
-*.log
-.DS_Store
-Thumbs.db
-composer.phar
-composer.lock
+*.bat
+composer-*
 
-# Env
-.env*
-!.env.example
-
-# Editor
-.vscode
-.idea
+# Project
+public/uploads

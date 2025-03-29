@@ -1,2 +1,2 @@
-# zay-project
-Zay Project
+# phpm-project
+PHP Manager is a rapidly developing framework
