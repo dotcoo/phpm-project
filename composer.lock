@@ -1,0 +1,72 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "5f13c374be9ac32fbf705b535102025a",
+    "packages": [
+        {
+            "name": "phpm/framework",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dotcoo/phpm-framework.git",
+                "reference": "7cfdde99b9e6b79694b3112adfef71f62d138c38"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dotcoo/phpm-framework/zipball/7cfdde99b9e6b79694b3112adfef71f62d138c38",
+                "reference": "7cfdde99b9e6b79694b3112adfef71f62d138c38",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.1"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/files/init.php"
+                ],
+                "psr-4": {
+                    "net\\phpm\\framework\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "dotcoo",
+                    "email": "dotcoo@163.com"
+                }
+            ],
+            "description": "PHP Manager is a rapidly developing framework",
+            "homepage": "https://github.com/dotcoo/php-framework",
+            "keywords": [
+                "framework",
+                "php",
+                "php manager",
+                "phpM",
+                "swoole"
+            ],
+            "support": {
+                "issues": "https://github.com/dotcoo/php-framework/issues",
+                "source": "https://github.com/dotcoo/php-framework"
+            },
+            "time": "2025-04-09T03:48:51+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {},
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=8.1"
+    },
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}

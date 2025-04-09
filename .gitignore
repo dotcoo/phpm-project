@@ -10,6 +10,7 @@
 *.sw?
 
 # Directory
+node_modules
 vendor
 var
 logs

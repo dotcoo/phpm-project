@@ -4,10 +4,7 @@
 
 declare(strict_types=1);
 
-define('APP_ROOT', __DIR__);
-
-require_once __DIR__ . '/../phpm-framework/src/files/env.php';
-require_once __DIR__ . '/../phpm-framework/src/Server.php';
+require_once __DIR__ . '/vendor/phpm/framework/src/Server.php';
 
 if (PHP_SAPI != 'cli') { exit('not cli!'); }
 
